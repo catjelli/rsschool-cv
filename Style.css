@@ -1,0 +1,182 @@
+@font-face {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 300;
+    src: url("assets/fonts/Nunito.ttf");
+}
+
+@font-face {
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    src: url("assets/fonts/Nunito-Bold.ttf");
+}
+
+@font-face {
+    font-family: RobotoFlex;
+    font-style: normal;
+    font-weight: 400;
+    src: url("assets/fonts/RobotoFlex.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.header {
+    background-color: #363d51;
+}
+
+.navigation {
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.navigation-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.navigation-link:hover {
+    color: #8f939f;
+}
+
+.main {
+    padding-top: 30px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.main-photo {
+    border-radius: 50%;
+}
+
+.main-header {
+    font-family: "Nunito", sans-serif;
+    font-size: 36px;
+    color: #2c2f37;
+}
+
+.section {
+    padding-bottom: 15px;
+}
+
+.section-header {
+    padding-top: 15px;
+    font-family: "RobotoFlex", sans-serif;
+    font-size: 28px;
+    color: #2c2f37;
+    border-top: 1px solid #8f939f;
+}
+
+.section-text {
+    padding-top: 6px;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #2c2f37;
+}
+
+.section-item {
+    position: relative;
+    padding-left: 20px;
+}
+
+.section-item::before {
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: 0;
+    width: 7px;
+    height: 7px;
+    border: 1px solid #2c2f37;
+    border-radius: 50%;
+}
+
+.subheader {
+    font-weight: 600;
+}
+
+.contacts-phone, .contacts-mail, .contacts-telegram {
+    position: relative;
+    padding-left: 40px;
+}
+
+.contacts-phone::before {
+    content: url("assets/svg/phone-rounded-svgrepo-com.svg");
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contacts-mail::before {
+    content: url("assets/svg/gmail-svgrepo-com.svg");
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.contacts-telegram::before {
+    content: url("assets/svg/telegram-svgrepo-com.svg");
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
