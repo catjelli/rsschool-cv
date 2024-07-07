@@ -63,7 +63,7 @@ body {
 }
 
 .navigation {
-    font-family: Nunito;
+    font-family: "Nunito", sans-serif;
     font-size: 18px;
     font-weight: 300;
 }
@@ -101,7 +101,7 @@ body {
 }
 
 .main-header {
-    font-family: Nunito;
+    font-family: "Nunito", sans-serif;
     font-size: 36px;
     color: #2c2f37;
 }
@@ -112,7 +112,7 @@ body {
 
 .section-header {
     padding-top: 15px;
-    font-family: RobotoFlex;
+    font-family: "RobotoFlex", sans-serif;
     font-size: 28px;
     color: #2c2f37;
     border-top: 1px solid #8f939f;
@@ -120,7 +120,7 @@ body {
 
 .section-text {
     padding-top: 6px;
-    font-family: Nunito;
+    font-family: "Nunito", sans-serif;
     font-size: 18px;
     font-weight: 300;
     color: #2c2f37;
@@ -135,7 +135,7 @@ body {
     content: "";
     position: absolute;
     top: 13px;
-    left: 0px;
+    left: 0;
     width: 7px;
     height: 7px;
     border: 1px solid #2c2f37;
@@ -143,7 +143,7 @@ body {
 }
 
 .subheader {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .contacts-phone, .contacts-mail, .contacts-telegram {
@@ -154,22 +154,22 @@ body {
 .contacts-phone::before {
     content: url("assets/svg/phone-rounded-svgrepo-com.svg");
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
 }
 
 .contacts-mail::before {
     content: url("assets/svg/gmail-svgrepo-com.svg");
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
 }
 
 .contacts-telegram::before {
     content: url("assets/svg/telegram-svgrepo-com.svg");
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
 }
 
 .footer-list {
