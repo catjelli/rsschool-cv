@@ -4,7 +4,7 @@
 * E-mail: email@gmail.com
 
 ## About
-I am interested in creating web applications and user interfaces. I strive to apply the knowledge I gain in practice and develop skills to solve real-world problems. I am open to new opportunities and professional growth in the IT.
+Hi! I am interested in creating web applications and user interfaces. I strive to apply the knowledge I gain in practice and develop skills to solve real-world problems. I am open to new opportunities and professional growth in the IT.
 
 ## Skills
 * HTML
