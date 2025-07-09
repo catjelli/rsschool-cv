@@ -18,3 +18,9 @@ Hi! I am interested in creating web applications and user interfaces. I strive t
 ## Education
 
 * Northern (Arctic) Federal University - Applied Mathematics and Computer Science
+
+## Languages
+
+* Russian
+* English
+* Español
