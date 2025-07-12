@@ -17,7 +17,7 @@
             <li><a href="">Education</a></li>
             <li><a href="">Languages</a></li>
             <li><a href="">Projects</a></li>
-            <li><a href="">Exemple</a></li>
+            <li><a href="">Code Exemple</a></li>
             <li><a href="">Contacts</a></li>
           </ul>
         </nav>
@@ -27,7 +27,7 @@
     <main>
       <section class="about">
         <div class="wrapper">
-          <h2 class="about__header">About</h2>
+          <h2 class="section-header">About</h2>
           <img
             class="about__avatar"
             src="assets/img/avatar.jpeg"
@@ -36,17 +36,20 @@
             height="300"
           />
           <p class="about__text">
-            Hi! I am interested in creating web applications and user
-            interfaces. I strive to apply the knowledge I gain in practice and
-            develop skills to solve real-world problems. I am open to new
-            opportunities and professional growth in the IT.
+            Hi! My name is Valery, and I'm a junior web developer with a passion
+            for modern technologies and clean code. I'm currently learning
+            actively, building practice projects, and exploring HTML, CSS, and
+            JavaScript. I enjoy turning ideas into functional interfaces and
+            strive to grow in this field every day. I'm open to new knowledge,
+            teamwork, and exciting challenges. This website is one of my first
+            steps into web development.
           </p>
         </div>
       </section>
 
       <section class="skills">
         <div class="wrapper">
-          <h2 class="skills__header">Skills</h2>
+          <h2 class="section-header">Skills</h2>
           <ul class="skills__list">
             <li>HTML</li>
             <li>CSS</li>
@@ -59,7 +62,7 @@
 
       <section class="education">
         <div class="wrapper">
-          <h2 class="education__header">Education</h2>
+          <h2 class="section-header">Education</h2>
           <p class="education__text">
             Northern (Arctic) Federal University - Applied Mathematics and
             Computer Science
@@ -69,7 +72,7 @@
 
       <section class="languages">
         <div class="wrapper">
-          <h2 class="languages__header">Languages</h2>
+          <h2 class="section-header">Languages</h2>
           <ul class="languages__list">
             <li>Russian</li>
             <li>English</li>
@@ -80,7 +83,7 @@
 
       <section class="projects">
         <div class="wrapper">
-          <h2 class="projects__header">Projects</h2>
+          <h2 class="section-header">Projects</h2>
           <article class="project">
             <h3 class="project__header">Productly</h3>
             <a href="https://github.com/catjelli/rs-live-coding">
@@ -95,6 +98,65 @@
           </article>
         </div>
       </section>
+
+      <section class="code-exemple">
+        <div class="wrapper">
+          <h2 class="section-header">Code Example</h2>
+          <pre class="code-block"><code>
+const generateArticles = (data) => {
+    let articles = [];
+    data.forEach(article => {
+        articles.push(new Article(article));
+    });
+
+    return articles;
+}
+  </code></pre>
+        </div>
+      </section>
+
+      <section class="contacts">
+        <div class="wrapper">
+          <h2 class="section-header">Contacts</h2>
+          <ul class="contacts__list">
+            <li>
+              <span class="phone-icon"></span>
+              Phone: +7 (900) 000-00-00
+            </li>
+            <li>
+              <span class="email-icon"></span>
+              E-mail: email@gmail.com
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
+
+    <footer class="footer">
+      <div class="wrapper">
+        <ul class="footer-list">
+          <li>
+            <a href="https://github.com/catjelli"
+              ><img
+                src="assets/img/github.png"
+                alt="Github Logo"
+                width="60"
+                height="60"
+            /></a>
+          </li>
+          <li>2025</li>
+          <li>
+            <a href="https://rs.school/courses/javascript-preschool-ru">
+              <img
+                src="assets/img/rs-school-logo.svg"
+                alt="RS School Logo"
+                width="60"
+                height="60"
+              />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
   </body>
 </html>

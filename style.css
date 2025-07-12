@@ -53,3 +53,19 @@ body {
 .about__avatar {
   border-radius: 50%;
 }
+
+.code-block {
+  width: 55%;
+  margin: 0;
+  padding: 0 10px;
+  border-radius: 8px;
+  font-family: "Courier New", monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #1e1e1e;
+  color: #dcdcdc;
+}
+
+.footer-list {
+  list-style: none;
+}
