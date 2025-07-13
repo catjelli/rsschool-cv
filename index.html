@@ -12,13 +12,15 @@
         <nav class="navigation">
           <h1 class="title">Valery Fedorova</h1>
           <ul class="navigation__list">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#languages">Languages</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#code-example">Code Example</a></li>
-            <li><a href="#contacts">Contacts</a></li>
+            <li><a class="navigation__link" href="#about">About</a></li>
+            <li><a class="navigation__link" href="#skills">Skills</a></li>
+            <li><a class="navigation__link" href="#education">Education</a></li>
+            <li><a class="navigation__link" href="#languages">Languages</a></li>
+            <li><a class="navigation__link" href="#projects">Projects</a></li>
+            <li>
+              <a class="navigation__link" href="#code-example">Code Example</a>
+            </li>
+            <li><a class="navigation__link" href="#contacts">Contacts</a></li>
           </ul>
         </nav>
       </div>
@@ -27,29 +29,37 @@
     <main>
       <section class="about" id="about">
         <div class="wrapper">
-          <h2 class="section-header">About</h2>
-          <img
-            class="about__avatar"
-            src="assets/img/avatar.jpeg"
-            alt="Avatar"
-            width="300"
-            height="300"
-          />
-          <p class="about__text">
-            Hi! My name is Valery, and I'm a junior web developer with a passion
-            for modern technologies and clean code. I'm currently learning
-            actively, building practice projects, and exploring HTML, CSS, and
-            JavaScript. I enjoy turning ideas into functional interfaces and
-            strive to grow in this field every day. I'm open to new knowledge,
-            teamwork, and exciting challenges. This website is one of my first
-            steps into web development.
-          </p>
+          <h2 class="section-title">About</h2>
+          <div class="about-wrapper">
+            <img
+              class="about__avatar"
+              src="assets/img/avatar.jpeg"
+              alt="Avatar"
+              width="200"
+              height="200"
+            />
+            <p class="about__text">
+              Hi! My name is <span class="about__text--accent">Valery</span>,
+              and I'm a junior web developer with a passion for modern
+              technologies and clean code. I'm currently learning actively,
+              building practice projects, and exploring
+              <span class="about__text--accent">HTML</span>,
+              <span class="about__text--accent">CSS</span>, and
+              <span class="about__text--accent">JavaScript</span>. I enjoy
+              turning ideas into functional interfaces and strive to grow in
+              this field every day. I'm open to new
+              <span class="about__text--accent">knowledge</span>,
+              <span class="about__text--accent">teamwork</span>, and exciting
+              <span class="about__text--accent">challenges</span>. This website
+              is one of my first steps into web development.
+            </p>
+          </div>
         </div>
       </section>
 
       <section class="skills" id="skills">
         <div class="wrapper">
-          <h2 class="section-header">Skills</h2>
+          <h2 class="section-title">Skills</h2>
           <ul class="skills__list">
             <li>HTML</li>
             <li>CSS</li>
@@ -62,7 +72,7 @@
 
       <section class="education" id="education">
         <div class="wrapper">
-          <h2 class="section-header">Education</h2>
+          <h2 class="section-title">Education</h2>
           <p class="education__text">
             Northern (Arctic) Federal University - Applied Mathematics and
             Computer Science
@@ -72,7 +82,7 @@
 
       <section class="languages" id="languages">
         <div class="wrapper">
-          <h2 class="section-header">Languages</h2>
+          <h2 class="section-title">Languages</h2>
           <ul class="languages__list">
             <li>Russian</li>
             <li>English</li>
@@ -83,25 +93,38 @@
 
       <section class="projects" id="projects">
         <div class="wrapper">
-          <h2 class="section-header">Projects</h2>
-          <article class="project">
-            <h3 class="project__header">Productly</h3>
-            <a href="https://github.com/catjelli/rs-live-coding">
-              <img src="assets/img/1.jpeg" alt="Productly project" />
-            </a>
-          </article>
-          <article class="project">
-            <h3 class="project__header">CV</h3>
-            <a href="https://github.com/catjelli/rsschool-cv">
-              <img src="assets/img/1.jpeg" alt="Productly project" />
-            </a>
-          </article>
+          <h2 class="section-title">Projects</h2>
+          <div class="projects-wrapper">
+            <article class="project">
+              <h3 class="project__title">Productly</h3>
+              <a
+                href="https://github.com/catjelli/rs-live-coding"
+                target="_blank"
+              >
+                <img
+                  class="project__img"
+                  src="assets/img/1.jpeg"
+                  alt="Productly project"
+                />
+              </a>
+            </article>
+            <article class="project">
+              <h3 class="project__title">CV</h3>
+              <a href="https://github.com/catjelli/rsschool-cv" target="_blank">
+                <img
+                  class="project__img"
+                  src="assets/img/1.jpeg"
+                  alt="Productly project"
+                />
+              </a>
+            </article>
+          </div>
         </div>
       </section>
 
       <section class="code-example" id="code-example">
         <div class="wrapper">
-          <h2 class="section-header">Code Example</h2>
+          <h2 class="section-title">Code Example</h2>
           <pre class="code-block"><code>
 const generateArticles = (data) => {
     let articles = [];
@@ -117,7 +140,7 @@ const generateArticles = (data) => {
 
       <section class="contacts" id="contacts">
         <div class="wrapper">
-          <h2 class="section-header">Contacts</h2>
+          <h2 class="section-title">Contacts</h2>
           <ul class="contacts__list">
             <li>
               <span class="phone-icon"></span>
