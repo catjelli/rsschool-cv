@@ -113,7 +113,7 @@
               <a href="https://github.com/catjelli/rsschool-cv" target="_blank">
                 <img
                   class="project__img"
-                  src="assets/img/1.jpeg"
+                  src="assets/img/2.jpeg"
                   alt="Productly project"
                 />
               </a>
@@ -142,13 +142,17 @@ const generateArticles = (data) => {
         <div class="wrapper">
           <h2 class="section-title">Contacts</h2>
           <ul class="contacts__list">
-            <li>
+            <li class="contacts__item">
               <span class="phone-icon"></span>
-              Phone: +7 (900) 000-00-00
+              <a class="contacts__link" href="tel:+79000000000"
+                >Phone: +7 (900) 000-00-00</a
+              >
             </li>
-            <li>
+            <li class="contacts__item">
               <span class="email-icon"></span>
-              E-mail: email@gmail.com
+              <a class="contacts__link" href="mailto:email@gmail.com"
+                >E-mail: email@gmail.com</a
+              >
             </li>
           </ul>
         </div>
@@ -159,7 +163,7 @@ const generateArticles = (data) => {
       <div class="wrapper">
         <ul class="footer-list">
           <li>
-            <a href="https://github.com/catjelli"
+            <a href="https://github.com/catjelli" target="_blank"
               ><svg
                 width="45"
                 height="45"
@@ -174,9 +178,12 @@ const generateArticles = (data) => {
                 /></svg
             ></a>
           </li>
-          <li>2025</li>
+          <li class="footer__year">2025</li>
           <li>
-            <a href="https://rs.school/courses/javascript-preschool-ru">
+            <a
+              href="https://rs.school/courses/javascript-preschool-ru"
+              target="_blank"
+            >
               <img
                 src="assets/img/rs-school-logo.svg"
                 alt="RS School Logo"
